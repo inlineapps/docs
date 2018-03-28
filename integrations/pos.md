@@ -4,7 +4,7 @@ inline 提供以下幾個功能與 POS 串接：
 1. inline 帶位 → POS 
 2. POS 開桌 → inline
 3. inline ↔ POS 換桌
-4. inline ↔ POS 清桌
+4. inline ↔ POS 清桌、結帳
 # inline 通知 POS
 
 inline 利用 webhook POST 方式通知 POS 客人帶位、換桌、清桌，POS 提供 webhook endpoint 接收帶位事件。
@@ -121,9 +121,9 @@ POS 發生換桌動作，可利用 REST API 將資訊更新回 inline
     {
       "tables": ["A1", "A2"] // table names, inline 會試著找到匹配的桌子名稱並將客人桌號更新
     }
-# 清桌
+# POS結帳、清桌
 
-POS 清桌，可利用 REST API 將資訊更新回 inline
+POS 結帳/清桌時，可利用 REST API 將資訊更新回 inline
 
 ## PUT /reservations/{companyId}/{branchId}/{reservationId}/clean
     {
