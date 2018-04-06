@@ -10,7 +10,7 @@ Obtain following infos from inline
 
 # APIs
 
-inline provider following API for platform integration
+inline provide following APIs for platform integration:
 
 1. [Query booking capacities](https://api.inlineapps.com/docs/#/bookings/getBookingCapacitiesV2)
 2. [Create a reservation](https://api.inlineapps.com/docs/#/reservations/createReservation)
