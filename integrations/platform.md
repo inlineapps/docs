@@ -1,16 +1,17 @@
 # Platform Integration Guide
 
-# 準備
+# Prerequisite
 
-串接需要先從 inline 取得以下欄位
+Obtain following infos from inline
 
 - API Key
 - provider id
-- companyId & branchId 對照表
-# 串接
+- companyId & branchId mapping tables
 
-inline 提供以下功能 API 供訂位平台串接：
+# APIs
 
-1. [空位查詢](https://api.inlineapps.com/docs/#/bookings/getBookingCapacitiesV2)
-2. [建立訂位](https://api.inlineapps.com/docs/#/reservations/createReservation)
-3. [查詢訂位](https://api.inlineapps.com/docs/#/third_party/thirdPartyMemberQueryReservations)
+inline provider following API for platform integration
+
+1. [Query booking capacities](https://api.inlineapps.com/docs/#/bookings/getBookingCapacitiesV2)
+2. [Create a reservation](https://api.inlineapps.com/docs/#/reservations/createReservation)
+3. [Query reservations](https://api.inlineapps.com/docs/#/third_party/thirdPartyMemberQueryReservations)
