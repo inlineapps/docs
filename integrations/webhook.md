@@ -21,7 +21,7 @@ webhook 一律以 Http POST, application/json 格式發送，格式如下
 
 # 事件列表
 
-## 訂位相關
+## 訂位相關
 event.type =
 - reservation-created: 訂位建立
 - reservation-canceled: 訂位取消
