@@ -21,7 +21,7 @@ inline 提供以下 api 供 app 串接
 1. [查詢餐廳品牌優惠券 API](https://api.inlineapps.com/docs/#/vouchers/getVouchers) ，取得指定餐廳品牌所有優惠券
 2. [發放優惠券 API](https://api.inlineapps.com/docs/#/vouchers/issueThirdPartyMemberVoucher) 將優惠券發給指定會員
 3. [取得會員優惠券 API](https://api.inlineapps.com/docs/#/vouchers/getThirdPartyMemberIssuedVouchers) ，將可透過會員編號取得該會員擁有優惠券
-4. [核銷優惠券 API](https://api.inlineapps.com/docs/#/vouchers/useIssuedVoucher) ，可在 app 上核銷優惠券
+4. [核銷優惠券 API](https://api.inlineapps.com/docs/#/vouchers/useIssuedVoucher) ，可在 app 上核銷優惠券
 
 # Webhook
 
