@@ -69,6 +69,9 @@ event.data =
     "name": "inline customer",
     "gender": "male",
     "language": "zh"
+    "thirdParties": {
+      "member-id": true
+    }
   },
   "reservationTime": 0,
   "type": "waiting",
