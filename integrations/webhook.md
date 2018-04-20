@@ -68,10 +68,8 @@ event.data =
     "customerId": "my-id",
     "name": "inline customer",
     "gender": "male",
-    "language": "zh"
-    "thirdParties": {
-      "member-id": true
-    }
+    "language": "zh",
+    "thirdPartyId": "member-id"
   },
   "reservationTime": 0,
   "type": "waiting",
