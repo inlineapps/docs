@@ -42,7 +42,7 @@ event.data =
   "numberOfKidChairs": 0,
   "numberOfKidSets": 0,
   "thirdPartyMember": {
-    "id": "member-id",
+    "memberId": "member-id",
     "type": "vip",
     "provider": "facebook",
     "name": "Ken",
@@ -69,7 +69,6 @@ event.data =
     "name": "inline customer",
     "gender": "male",
     "language": "zh",
-    "thirdPartyMemberId": "member-id"
   },
   "reservationTime": 0,
   "type": "waiting",
