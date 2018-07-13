@@ -126,6 +126,8 @@ POS 清桌，可利用 REST API 將資訊更新回 inline
         "id": "order-id",
         "taxId": "52384127", // 統編
         "amount": 1200,
+        "note": "some notes",
+        "url": "link to order",
         "items": [
           {
             "name": "可樂",
