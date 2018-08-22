@@ -131,7 +131,9 @@ POS 清桌，可利用 REST API 將資訊更新回 inline
         "items": [
           {
             "name": "可樂",
-            "quantity": 2
+            "quantity": 2,
+            "value": 100,
+            "note": "some custome note"
           }
         ]
       }
