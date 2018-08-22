@@ -32,6 +32,9 @@ event.data =
 ```
 {
   "id": "string",
+  "tables": [
+    { "name": "A1" }
+  ],
   "reservationLink": "http://to/reservation",
   "branchId": "string",
   "companyId": "string",
