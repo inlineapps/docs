@@ -1,0 +1,52 @@
+
+   ```
+    0: 'Unknown error',
+    // Databases
+    100000: 'Database error',
+    100001: 'Failed to fetch data from database',
+    100002: 'Database contains dirty data',
+    100003: 'Service busy, please try again later',
+    // Companies
+    200001: 'Failed to get reservation limit',
+    // Reservations
+    300001: 'Hit customer\'s limit per company',
+    300002: 'No capacity available',
+    300003: 'Reservation not found',
+    300004: 'VIP Customer only',
+    300005: 'Reservation already cancelled',
+    300006: 'Customer blocked by reach no show limit',
+    300007: 'Customer blocked by company manually',
+    300008: 'Transaction is not chargeable',
+    300009: 'Requested charge amount is bigger than original stated amount or impossible number',
+    // Branches
+    400001: 'No capacity settings found for this branch',
+    // ValueError
+    500000: 'Inappropriate value',
+    500001: 'Invalid phone number',
+    500002: 'The group size you picked is out of available range',
+    500003: 'Third Party Provider is invalid',
+    500004: 'Third Party member does not conform to schema',
+    500005: 'Web waiting is disabled',
+    500006: 'Web booking is disabled',
+    500007: 'Invalid branch id',
+    500008: 'Invalid third-party member id',
+    500009: 'Invalid created from',
+    500010: 'Invalid company ID',
+    500011: 'Invalid third party setting',
+    500012: 'Illegal characters (.#$[]/) found in phone id string',
+    500013: 'Invalid customer ID',
+    500014: 'Invalid sub account ID',
+
+    600001: 'Cannot find survey in the company',
+    600002: 'Cannot find the specified submission',
+    600003: 'Invalid next contact status',
+    700001: 'Cannot find the voucher',
+    700002: 'The voucher is already used',
+    700003: 'Invalid voucher request body',
+    700004: 'Exceed the max issuable quantity',
+    700005: 'The voucher is inactive',
+    700006: 'The voucher is expired',
+    700007: 'The voucher is not available right now',
+    700008: 'The voucher can not be used in the given branch',
+    // waiting error
+    800001: 'reset only work for branch with { resetMode: manual, watiingMode: default, positionInLineMode: all }',
