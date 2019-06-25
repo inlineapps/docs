@@ -13,9 +13,9 @@ input form is a json object encoded in base64 with following format:
         "name": "Ken",
         "gender": 0, //性別，0 = 男, 1 = 女
         "phone": "+886988315555",
-        "email": "an-email@gmail.com",
+        "email": "an-email@gmail.com"
       },
-      thirdPartyMember: {
+      "thirdPartyMember": {
         "id": "member-id",
         "type": "vip",
         "provider": "provider-id",
@@ -28,18 +28,16 @@ input form is a json object encoded in base64 with following format:
         "language": "zh-tw",
         "note": "I am a note",
         "avatar": "https://example.com/avatar.jpg",
-        "metadata": {},
-        "updatedTime": 1514247345710,
-        "createdTime": 1514247345710
+        "metadata": {}
       }
     }
 
 # 測試資料
 
-companyId: `-KmdXp8GIqM0ypiX1lV3`
+companyId: `-KmdXp8GIqM0ypiX1lV3:inline-live-2a466`
 
 branchId: `-KmdXp8GIqM0ypiX1lV4`
 
 Example:
 
-https://inline.app/booking/-KmdXp8GIqM0ypiX1lV3/-KmdXp8GIqM0ypiX1lV4?pre_filled_form=eyAiY3VzdG9tZXIiOiB7ICJuYW1lIjogIktlbiIsICJnZW5kZXIiOiAwLCAicGhvbmUiOiAiODg2OTg4MzE1NTU1IiwgImVtYWlsIjogImFuLWVtYWlsQGdtYWlsLmNvbSIsICJsYW5ndWFnZSI6ICJ6aC1UVyIgfSB9Cg==
+https://inline.app/booking/-KmdXp8GIqM0ypiX1lV3:inline-live-2a466/-KmdXp8GIqM0ypiX1lV4?pre_filled_form=ewoJImxhbmd1YWdlIjogInpoLVRXIiwKCSJjdXN0b21lciI6IHsKCQkibmFtZSI6ICJLZW4iLAoJCSJnZW5kZXIiOiAwLAoJCSJwaG9uZSI6ICIrODg2OTg4MzE1NTU1IiwKCQkiZW1haWwiOiAiYW4tZW1haWxAZ21haWwuY29tIgoJfSwKCSJ0aGlyZFBhcnR5TWVtYmVyIjogewoJCSJpZCI6ICJtZW1iZXItaWQiLAoJCSJ0eXBlIjogInZpcCIsCgkJInByb3ZpZGVyIjogInByb3ZpZGVyLWlkIiwKCQkibmFtZSI6ICJLZW4iLAoJCSJwaG9uZSI6ICIrODg2OTg4MTExMjIyIiwKCQkiZW1haWwiOiAia2VuQGlubGluZWFwcHMuY29tIiwKCQkiYWRkcmVzcyI6ICLlj7DljJfluILkuK3mraPljYDph43mhbbljZfot6%2FkuIDmrrUxMjLomZ8iLAoJCSJnZW5kZXIiOiAwLAoJCSJiaXJ0aGRheSI6ICIxOTg2LTA2LTA2IiwKCQkibGFuZ3VhZ2UiOiAiemgtdHciLAoJCSJub3RlIjogIkkgYW0gYSBub3RlIiwKCQkiYXZhdGFyIjogImh0dHBzOi8vZXhhbXBsZS5jb20vYXZhdGFyLmpwZyIsCgkJInVwZGF0ZWRUaW1lIjogMTUxNDI0NzM0NTcxMCwKCQkiY3JlYXRlZFRpbWUiOiAxNTE0MjQ3MzQ1NzEwCgl9Cn0%3D
