@@ -1,28 +1,32 @@
 # POS Integration Guide
-Currently inline can integrate with POS partners to the following scenarios:
+
+Currently inline can integrate with POS partners for the following scenarios:
 
 1. inline tabling → POS
 2. POS tabling → inline
 3. inline ↔ POS changing table
 4. POS clean table and check out → inline
+
 # inline informs POS
 
-inline uses webhook POST to inform POS regarding to tabling, changing table, cleaning table. And POS can receive the events through webhook endpoint.
+inline uses webhook POST to inform POS about tabling, changing table, cleaning table. And POS can receive the events through webhook endpoint.
 
-The events that have been sent through webhook, can be forwarded to different POS clients in different stores, based on companyId & branchId.
+The events sent through webhook can be forwarded to different POS clients in different stores, based on companyId & branchId.
 
 POS can do the following things, after receiving the events:
+
 1. Show patron details and `tables` on POS UI.
 2. Update the patron status based on `state`.
 
 ## Structure
+
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_739C3A445CE0DA65F2D9AF143A27AF7AABDD022DC5721FD2F5AF5C7EA74EE832_1521099875361_file.jpeg)
 
 - [Webhook Spec](./webhook.md)
 
 # POS -> inline
 
-When restaurant staff is operating on POS, the following infor can be synced with inline through APIs.
+When restaurant staff is operating on POS, the following info can be synced with inline through APIs.
 
 ## Tabling
 
@@ -90,6 +94,7 @@ When changing table happens on POS, inform inline with this info through REST AP
         { "name": "A2" }
       ] // table names, inline will try to find the related tableName, and updates the table info to this reservation.
     }
+
 ## Clean Table
  
 When cleaning table happens on POS, inform inline with this info through REST API.
