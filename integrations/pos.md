@@ -28,7 +28,7 @@ POS 收到事件後可做以下行為：
 
 POS 開桌，可利用以下 API 將傳送開桌資訊給 inline
 
-### POST /reservations/{companyId}/{branchId}
+### [POST /reservations/{companyId}/{branchId}](https://partner-api.inline.app/docs/#/reservations/createReservation)
     {
       "customerName": "Ken",
       "gender": 0, // 0 = 男, 1 = 女, 2 = 無
@@ -83,7 +83,7 @@ POS 開桌，可利用以下 API 將傳送開桌資訊給 inline
 
 POS 發生換桌動作，可利用 REST API 將資訊更新回 inline
 
-### PUT /reservations/{companyId}/{branchId}/{reservationId}/tables
+### [PUT /reservations/{companyId}/{branchId}/{reservationId}/tables](https://partner-api.inline.app/docs/#/reservations/assignTables)
     {
       "tables": [
         { "name": "A1" },
@@ -94,7 +94,7 @@ POS 發生換桌動作，可利用 REST API 將資訊更新回 inline
 
 POS 清桌，可利用 REST API 將資訊更新回 inline
 
-### PUT /reservations/{companyId}/{branchId}/{reservationId}/checkout
+### [PUT /reservations/{companyId}/{branchId}/{reservationId}/checkout](https://partner-api.inline.app/docs/#/reservations/checkout)
     {
       "customer": { // options
         "name": "customer name",
