@@ -32,7 +32,7 @@ When restaurant staff is operating on POS, the following info can be synced with
 
 Tabling on POS, this info can be sent to inline through API.
 
-### POST /reservations/{companyId}/{branchId}
+### [POST /reservations/{companyId}/{branchId}](https://partner-api.inline.app/docs/#/reservations/createReservation)
     {
       "customerName": "John",
       "gender": 0, // 0 = Male, 1 = Female, 2 = None
@@ -87,7 +87,7 @@ Tabling on POS, this info can be sent to inline through API.
 
 When changing table happens on POS, inform inline with this info through REST API.
 
-### PUT /reservations/{companyId}/{branchId}/{reservationId}/tables
+### [PUT /reservations/{companyId}/{branchId}/{reservationId}/tables](https://partner-api.inline.app/docs/#/reservations/assignTables)
     {
       "tables": [
         { "name": "A1" },
@@ -99,7 +99,7 @@ When changing table happens on POS, inform inline with this info through REST AP
  
 When cleaning table happens on POS, inform inline with this info through REST API.
 
-### PUT /reservations/{companyId}/{branchId}/{reservationId}/checkout
+### [PUT /reservations/{companyId}/{branchId}/{reservationId}/checkout](https://partner-api.inline.app/docs/#/reservations/checkout)
     {
       "customer": { // options
         "name": "customer name",
