@@ -39,7 +39,6 @@ POS 開桌，可利用以下 API 將傳送開桌資訊給 inline
       "numberOfKids": 1,
       "numberOfKidChairs": 3,
       "datetime": "2017-12-04T01:50:00Z",
-      "type": "walk-in"
       "note": "This is a note",
       "tables": [
         { "name": "A1" },
