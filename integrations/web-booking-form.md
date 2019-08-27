@@ -16,9 +16,9 @@ input form is a json object encoded in base64 with following format:
         "email": "an-email@gmail.com"
       },
       "thirdPartyMember": {
-        "id": "member-id",
+        "id": "member-id", //your member id
         "type": "vip",
-        "provider": "web", //please contact inline to provide your provider-id
+        "provider": "provider-id", //please contact inline to provide your provider-id
         "name": "inline",
         "phone": "+886988111222",
         "email": "ken@inlineapps.com",
