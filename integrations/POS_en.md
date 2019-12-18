@@ -22,7 +22,7 @@ POS can do the following things, after receiving the events:
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_739C3A445CE0DA65F2D9AF143A27AF7AABDD022DC5721FD2F5AF5C7EA74EE832_1521099875361_file.jpeg)
 
-- [Webhook Spec](./webhook.md)
+- [Webhook Spec](./webhook_en.md)
 
 # POS -> inline
 
