@@ -29,6 +29,8 @@ event.type =
 - reservation-canceled: A reservation is canceled
 - reservation-time-changed: A reservation's time is changed
 - reservation-seated: A reservation is seated
+- reservation-table-changed: A reservation has table assigned to another one
+- reservation-table-cleaned: A reservation is checked out
 
 event.data =
 ```
