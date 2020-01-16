@@ -29,6 +29,8 @@ event.type =
 - reservation-canceled: 訂位取消
 - reservation-time-changed: 訂位時間變更
 - reservation-seated: 訂位入座
+- reservation-table-changed: 訂位換桌
+- reservation-table-cleaned: 訂位清桌
 
 event.data =
 ```
