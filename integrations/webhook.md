@@ -69,6 +69,7 @@ event.data =
     "customerId": "my-id",
     "name": "inline customer",
     "gender": "male",
+    "phoneNumber": "+886988111222",
     "language": "zh"
   },
   "customer": {
