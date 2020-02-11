@@ -78,6 +78,25 @@ event.data =
     "gender": "male",
     "language": "zh",
   },
+  "order":{
+    "id": "a_pos_id",
+    "taxId": "12345678",
+    "amount": 100,
+    "discount": true,
+    "items": [
+    {
+      "name": "item1",
+      "quantity": 1.2,
+      "value": 100,
+      "note": "some note"
+    },{
+      "name": "item2",
+      "quantity": 2,
+      "value": 100,
+      "note": "some note"
+    }
+   ]
+  },
   "reservationTime": 0,
   "type": "waiting",
   "state": "waiting",
