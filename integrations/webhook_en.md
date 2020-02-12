@@ -21,6 +21,9 @@ webhook events are sent through Http POST, and in application/json:
 ## Security
 inline uses `X-Hub-Signature` to ensure webhook security. Please refer to https://developer.github.com/webhooks/securing/ for verifying the data from webhook is trustable or not.
 
+## Retry Rules
+When inline POST a webhook event but gets a response of fail, it'll retry every 5 seconds. And it'll retry at most to the 60th seconds. If it still fail, inline will stop sending this event.
+
 # Event List
 
 ## Reservation Related
@@ -70,6 +73,25 @@ event.data =
     "name": "inline customer",
     "gender": "male",
     "language": "zh"
+  },
+  "order":{
+    "id": "a_pos_id",
+    "taxId": "12345678",
+    "amount": 100,
+    "discount": true,
+    "items": [
+    {
+      "name": "item1",
+      "quantity": 1.2,
+      "value": 100,
+      "note": "some note"
+    },{
+      "name": "item2",
+      "quantity": 2,
+      "value": 100,
+      "note": "some note"
+    }
+   ]
   },
   "customer": {
     "customerId": "my-id",
