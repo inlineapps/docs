@@ -10,16 +10,16 @@ input form is a json object encoded in base64 with following format:
     {
       "language": "zh-TW",
       "customer": {
-        "name": "Ken",
+        "name": "inline",
         "gender": 0, //性別，0 = 男, 1 = 女
         "phone": "+886988315555",
         "email": "an-email@gmail.com"
       },
       "thirdPartyMember": {
-        "id": "member-id",
+        "id": "member-id", //your member id
         "type": "vip",
-        "provider": "provider-id",
-        "name": "Ken",
+        "provider": "provider-id", //please contact inline to provide your provider-id
+        "name": "inline",
         "phone": "+886988111222",
         "email": "ken@inlineapps.com",
         "address": "台北市中正區重慶南路一段122號",
@@ -40,4 +40,4 @@ branchId: `-KmdXp8GIqM0ypiX1lV4`
 
 Example:
 
-https://inline.app/booking/-KmdXp8GIqM0ypiX1lV3:inline-live-2a466/-KmdXp8GIqM0ypiX1lV4?pre_filled_form=ewoJImxhbmd1YWdlIjogInpoLVRXIiwKCSJjdXN0b21lciI6IHsKCQkibmFtZSI6ICJLZW4iLAoJCSJnZW5kZXIiOiAwLAoJCSJwaG9uZSI6ICIrODg2OTg4MzE1NTU1IiwKCQkiZW1haWwiOiAiYW4tZW1haWxAZ21haWwuY29tIgoJfSwKCSJ0aGlyZFBhcnR5TWVtYmVyIjogewoJCSJpZCI6ICJtZW1iZXItaWQiLAoJCSJ0eXBlIjogInZpcCIsCgkJInByb3ZpZGVyIjogInByb3ZpZGVyLWlkIiwKCQkibmFtZSI6ICJLZW4iLAoJCSJwaG9uZSI6ICIrODg2OTg4MTExMjIyIiwKCQkiZW1haWwiOiAia2VuQGlubGluZWFwcHMuY29tIiwKCQkiYWRkcmVzcyI6ICLlj7DljJfluILkuK3mraPljYDph43mhbbljZfot6%2FkuIDmrrUxMjLomZ8iLAoJCSJnZW5kZXIiOiAwLAoJCSJiaXJ0aGRheSI6ICIxOTg2LTA2LTA2IiwKCQkibGFuZ3VhZ2UiOiAiemgtdHciLAoJCSJub3RlIjogIkkgYW0gYSBub3RlIiwKCQkiYXZhdGFyIjogImh0dHBzOi8vZXhhbXBsZS5jb20vYXZhdGFyLmpwZyIsCgkJInVwZGF0ZWRUaW1lIjogMTUxNDI0NzM0NTcxMCwKCQkiY3JlYXRlZFRpbWUiOiAxNTE0MjQ3MzQ1NzEwCgl9Cn0%3D
+https://inline.app/booking/-KmdXp8GIqM0ypiX1lV3:inline-live-2a466/-KmdXp8GIqM0ypiX1lV4?pre_filled_form=CiAgICB7CiAgICAgICJsYW5ndWFnZSI6ICJ6aC1UVyIsCiAgICAgICJjdXN0b21lciI6IHsKICAgICAgICAibmFtZSI6ICJpbmxpbmUiLAogICAgICAgICJnZW5kZXIiOiAwLCAvL+aAp+WIpe+8jDAgPSDnlLcsIDEgPSDlpbMKICAgICAgICAicGhvbmUiOiAiKzg4Njk4ODMxNTU1NSIsCiAgICAgICAgImVtYWlsIjogImFuLWVtYWlsQGdtYWlsLmNvbSIKICAgICAgfSwKICAgICAgInRoaXJkUGFydHlNZW1iZXIiOiB7CiAgICAgICAgImlkIjogIm1lbWJlci1pZCIsCiAgICAgICAgInR5cGUiOiAidmlwIiwKICAgICAgICAicHJvdmlkZXIiOiAid2ViIiwgLy9wbGVhc2UgY29udGFjdCBpbmxpbmUgdG8gcHJvdmlkZSB5b3VyIHByb3ZpZGVyLWlkCiAgICAgICAgIm5hbWUiOiAiaW5saW5lIiwKICAgICAgICAicGhvbmUiOiAiKzg4Njk4ODExMTIyMiIsCiAgICAgICAgImVtYWlsIjogImtlbkBpbmxpbmVhcHBzLmNvbSIsCiAgICAgICAgImFkZHJlc3MiOiAi5Y+w5YyX5biC5Lit5q2j5Y2A6YeN5oW25Y2X6Lev5LiA5q61MTIy6JmfIiwKICAgICAgICAiZ2VuZGVyIjogMCwKICAgICAgICAiYmlydGhkYXkiOiAiMTk4Ni0wNi0wNiIsCiAgICAgICAgImxhbmd1YWdlIjogInpoLXR3IiwKICAgICAgICAibm90ZSI6ICJJIGFtIGEgbm90ZSIsCiAgICAgICAgImF2YXRhciI6ICJodHRwczovL2V4YW1wbGUuY29tL2F2YXRhci5qcGciLAogICAgICAgICJtZXRhZGF0YSI6IHt9CiAgICAgIH0KICAgIH0=
