@@ -90,11 +90,18 @@ event.data =
   "customer": {
     "customerId": "my-id",
     "name": "inline customer",
-    "phoneNumber": "+886988111222",
+    "phoneNumber": "+886988111222", //this will show if restaurants agree to share patron in formation
     "email": "rsv@inlineapps.com",
     "gender": "male",
     "language": "zh",
   },
+  "contact": {	//this will only show when the reservation comes with a booking agent
+    "customerId": "my-id",	
+    "name": "inline customer",	
+    "gender": "male",	
+    "phoneNumber": "+886988111222",	
+    "language": "zh"	
+  },    
   "reservationTime": 0,
   "type": "waiting",
   "state": "waiting",
