@@ -68,12 +68,6 @@ event.data =
     "updatedTime": 1514247345710,
     "createdTime": 1514247345710
   },
-  "contact": {
-    "customerId": "my-id",
-    "name": "inline customer",
-    "gender": "male",
-    "language": "zh"
-  },
   "order":{
     "id": "a_pos_id",
     "taxId": "12345678",
@@ -96,6 +90,8 @@ event.data =
   "customer": {
     "customerId": "my-id",
     "name": "inline customer",
+    "phoneNumber": "+886988111222",
+    "email": "rsv@inlineapps.com",
     "gender": "male",
     "language": "zh",
   },
