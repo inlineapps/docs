@@ -71,11 +71,18 @@ event.data =
   "customer": {
     "customerId": "my-id",
     "name": "inline customer",
-    "phoneNumber": "+886988111222",
+    "phoneNumber": "+886988111222", //如果餐廳有開放分享顧客資訊才會顯示
     "email": "rsv@inlineapps.com",
     "gender": "male",
     "language": "zh",
   },
+  "contact": {	//如果該筆訂位有代訂人才會顯示
+    "customerId": "my-id",	
+    "name": "inline customer",	
+    "gender": "male",	
+    "phoneNumber": "+886988111222",	
+    "language": "zh"	
+  },  
   "order":{
     "id": "a_pos_id",
     "taxId": "12345678",
