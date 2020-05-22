@@ -19,7 +19,7 @@ webhook events are sent through Http POST, and in application/json:
 }
 ```
 ## Security
-inline uses `X-Hub-Signature` to ensure webhook security. Please refer to https://developer.github.com/webhooks/securing/ for verifying the data from webhook is trustable or not.
+inline uses `X-Hub-Signature` to ensure webhook security. Please refer to https://developer.github.com/webhooks/securing/ for verifying the data from webhook is trustable or not. Please note, the sha1 secret is created from payload sorted by key in asc order.
 
 ## Retry Rules
 When inline POST a webhook event but gets a response of fail, it'll retry every 5 seconds. And it'll retry at most to the 60th seconds. If it still fail, inline will stop sending this event.
