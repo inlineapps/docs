@@ -22,7 +22,7 @@ webhook 一律以 Http POST, application/json 格式發送，格式如下
 inline 使用 `X-Hub-Signature` 機制來確保 webhook 安全性，您可以參考 https://developer.github.com/webhooks/securing/ 來驗證 webhook 的來源與內容是否可信。需注意的是，要用 payload 依照 key 的名稱遞增排序之後，再 sha1 hash。
 
 ## 重試機制
-當 inline 在 webhook POST 失敗時，會每 5 秒重試一次，到第 60 秒時試最後一次。若依舊失敗，則此次 webhook event 傳送將會放棄。
+當 inline 在 webhook POST 失敗時，會每 5 秒重試一次，到第 60 秒時試最後一次。若依舊失敗，則此次 webhook event 傳送將會放棄
 
 # 事件列表
 
