@@ -44,5 +44,5 @@ https://inline.app/booking/-KXIv2zV1CA0OJEVKDDm/-LqZC7ERyO2hLDrIik9P?pre_filled_
 
 # Please Note 注意事項
 
-If the outcome from base64 encoding contains `+` characters, please do URL encoding to replace `+` with `%2B` before appending into target URL. The purpose is to ensure your pre_filled_form can be decode correctly. 
-如果 base64 encode 出來的結果帶有 `+` 號，請先做 URL encoding，將 `+` 代換成 `%2B`，再帶入 URL 內，以確保能正確 decode。
+- The base64 encoded value for pre_filled_form must be URL encoded./n請確保 base64 encode 出來的值是有再 URL encode 過的。
+-- For instance, if the outcome from base64 encoding contains `+` characters, please do URL encoding to replace `+` with `%2B` before appending into target URL. The purpose is to ensure your pre_filled_form can be decode correctly./n例如：如果 base64 encode 出來的結果帶有 `+` 號，請先做 URL encoding，將 `+` 代換成 `%2B`，再帶入 URL 內，以確保能正確 decode。
