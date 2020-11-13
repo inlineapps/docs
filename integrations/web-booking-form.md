@@ -41,3 +41,8 @@ branchId: `-KmdXp8GIqM0ypiX1lV4`
 Example:
 
 https://inline.app/booking/-KXIv2zV1CA0OJEVKDDm/-LqZC7ERyO2hLDrIik9P?pre_filled_form=ewogICJsYW5ndWFnZSI6ICJ6aC1UVyIsCiAgImN1c3RvbWVyIjogewogICAgIm5hbWUiOiAiaW5saW5lIiwKICAgICJnZW5kZXIiOiAwCiAgfSwKICAidGhpcmRQYXJ0eU1lbWJlciI6IHsKICAgICJpZCI6ICIxMjMiLAogICAgInR5cGUiOiAidmlwIiwKICAgICJwcm92aWRlciI6ICJnYiIsCiAgICAibmFtZSI6ICJpbmxpbmUiLAogICAgImdlbmRlciI6IDAsCiAgICAiYmlydGhkYXkiOiAiMTk4Ni0wNi0wNiIsCiAgICAibGFuZ3VhZ2UiOiAiemgtdHciCiAgfQp9
+
+# Please Note 注意事項
+
+If the outcome from base64 encoding contains `+` characters, please do URL encoding to replace `+` with `%2B` before appending into target URL. The purpose is to ensure your pre_filled_form can be decode correctly. 
+如果 base64 encode 出來的結果帶有 `+` 號，請先做 URL encoding，將 `+` 代換成 `%2B`，再帶入 URL 內，以確保能正確 decode。
