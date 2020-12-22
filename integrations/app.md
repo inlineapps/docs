@@ -22,6 +22,7 @@ inline 提供以下 api 供 app 串接
 inline 提供以下 api 供 app 串接
 
 1. 透過 [Group API](https://api.inline.app/docs/#/groups/getBranchInGroupV2)，查詢分店資訊與可候位時段
+_回傳資料範例：_
 ```
 "waitingInfo": {
         "estimatedWaitingMinutes": 60, //預計等候時間 60 分鐘
@@ -31,6 +32,15 @@ inline 提供以下 api 供 app 串接
 ```
 
 2. 透過 [建立候位 API](https://api.inline.app/docs/#/waitings/createWaiting) 建立一筆候位
+_回傳資料範例：_
+```
+{
+  "reservationId": "string", //inline 訂候位 ID
+  "serialNumber": "string", //候位序號
+  "reservationLink": "string", //候位狀態頁連結
+  "customerId": "string" //顧客 ID
+}
+```
 
 # 優惠券串接
 
