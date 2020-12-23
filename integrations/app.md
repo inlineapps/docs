@@ -21,15 +21,17 @@ inline 提供以下 api 供 app 串接
 
 inline 提供以下 api 供 app 串接
 
-1. 透過 [Group API](https://api.inline.app/docs/#/groups/getBranchInGroupV2)，查詢分店資訊與可候位時段
+1. 透過 [Group API](https://api.inline.app/docs/#/groups/getBranchInGroupV2)，查詢分店資訊與可候位時段  
+    _callback 範例:_ 
 ```
 "waitingInfo": {
-        "estimatedWaitingMinutes": 60, //預計等候時間 60 分鐘
-        "waitingCount": 3, //隊伍等待組數 3 組
-        "status": "open" //候位開放中
-      }
+  "estimatedWaitingMinutes": 60, //預計等候時間 60 分鐘
+  "waitingCount": 3, //隊伍等待組數 3 組
+  "status": "open" //候位開放中
+}
 ```
-2. 透過 [建立候位 API](https://api.inline.app/docs/#/waitings/createWaiting) 建立一筆候位
+2. 透過 [建立候位 API](https://api.inline.app/docs/#/waitings/createWaiting) 建立一筆候位  
+    _callback 範例:_ 
 ```
 {
   "reservationId": "string", //inline 訂候位 ID
