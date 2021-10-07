@@ -30,7 +30,9 @@ inline 使用 `X-Hub-Signature` 機制來確保 webhook 安全性，您可以參
 event.type =
 - reservation-created: 訂位建立
 - reservation-canceled: 訂位取消
+- reservation-uncanceled: 訂位加回
 - reservation-time-changed: 訂位時間變更
+- reservation-pax-changed: 訂位人數變更
 - reservation-seated: 訂位入座
 - reservation-table-changed: 訂位換桌
 - reservation-table-cleaned: 訂位清桌
