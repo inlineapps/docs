@@ -1,12 +1,14 @@
-# inline web booking form
+# inline web pre-filled form
 
-https://inline.app/booking/{companyId}/{branchId}?pre_filled_form={form object}
+Pass input data by `pre_filled_form` query param，can pre filled data into inline booking/order system's contact form
 
-透過 input form 參數，可以預先填入 booking system 的 form
+URL Example:
+- Booking: https://inline.app/booking/{companyId}/{branchId}?pre_filled_form={form object}
+- Food Order: https://inline.app/order/{companyId}/{branchId}?pre_filled_form={form object}
 
 input form is a json object encoded in base64 with following format:
 
-
+```
     {
       "language": "zh-TW",
       "customer": {
@@ -29,18 +31,25 @@ input form is a json object encoded in base64 with following format:
         "note": "I am a note",
         "avatar": "https://example.com/avatar.jpg",
         "metadata": {}
-      }
+      },
+      // Only has effect when the branch's enabled enableAttachOrderToBooking, then we can pre-filled reservation time to pre-selected the order time in the food order page, usually you should not provide this "reservation" property
+      "reservation": {
+        "id": "-eEDSsdxwewcwwd",
+        "time": 1675062040694
+      },
     }
+```
 
-# 測試資料
+# Testing Data
 
-companyId: `-KmdXp8GIqM0ypiX1lV3:inline-live-2a466`
-
-branchId: `-KmdXp8GIqM0ypiX1lV4`
+- companyId: `-KmdXp8GIqM0ypiX1lV3:inline-live-2a466`
+- branchId: `-KmdXp8GIqM0ypiX1lV4`
 
 Example:
 
+```
 https://inline.app/booking/-KXIv2zV1CA0OJEVKDDm/-LqZC7ERyO2hLDrIik9P?pre_filled_form=ewogICJsYW5ndWFnZSI6ICJ6aC1UVyIsCiAgImN1c3RvbWVyIjogewogICAgIm5hbWUiOiAiaW5saW5lIiwKICAgICJnZW5kZXIiOiAwCiAgfSwKICAidGhpcmRQYXJ0eU1lbWJlciI6IHsKICAgICJpZCI6ICIxMjMiLAogICAgInR5cGUiOiAidmlwIiwKICAgICJwcm92aWRlciI6ICJnYiIsCiAgICAibmFtZSI6ICJpbmxpbmUiLAogICAgImdlbmRlciI6IDAsCiAgICAiYmlydGhkYXkiOiAiMTk4Ni0wNi0wNiIsCiAgICAibGFuZ3VhZ2UiOiAiemgtdHciCiAgfQp9
+```
 
 # Please Note 注意事項
 
