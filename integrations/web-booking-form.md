@@ -32,6 +32,11 @@ input form is a json object encoded in base64 with following format:
         "avatar": "https://example.com/avatar.jpg",
         "metadata": {}
       },
+      // Only has effect in the branch booking page, if you want pre-select the date, time, group size in booking page UI component, you can provides below optional properties
+      "date": "2023-04-15",
+      "time": "11:00",
+      "adults": 2, // number
+      "kids": 1, // number
       // Only has effect when the branch's enabled enableAttachOrderToBooking, then we can pre-filled reservation time to pre-selected the order time in the food order page, usually you should not provide this "reservation" property
       "reservation": {
         "id": "-eEDSsdxwewcwwd",
