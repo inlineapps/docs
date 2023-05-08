@@ -10,6 +10,7 @@ input form is a json object encoded in base64 with following format:
 
 ```
     {
+      "isContactFormEditable": true, // default: true, when `false` the data in `customer` would be disabled in the contact form if that customer property has value
       "language": "zh-TW",
       "customer": {
         "name": "inline",
