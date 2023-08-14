@@ -43,6 +43,7 @@ input form is a json object encoded in base64 with following format:
         "id": "-eEDSsdxwewcwwd",
         "time": 1675062040694
       },
+      "externalId": 'A123' // Only support in food ordering, if you want to record a relation between inline order with your system, you can define the externalId
     }
 ```
 
