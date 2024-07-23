@@ -38,11 +38,6 @@ input form is a json object encoded in base64 with following format:
       "time": "11:00",
       "adults": 2, // number
       "kids": 1, // number
-      // Only has effect when the branch's enabled enableAttachOrderToBooking, then we can pre-filled reservation time to pre-selected the order time in the food order page, usually you should not provide this "reservation" property
-      "reservation": {
-        "id": "-eEDSsdxwewcwwd",
-        "time": 1675062040694
-      },
       "externalId": 'A123' // Only support in food ordering, if you want to record a relation between inline order with your system, you can define the externalId
     }
 ```
