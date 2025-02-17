@@ -39,7 +39,9 @@ input form is a json object encoded in base64 with following format:
       "adults": 2, // number
       "kids": 1, // number
       "externalId": 'A123', // Only support in food ordering, if you want to record a relation between inline order with your system, you can define the externalId
-      "tableTagId": 'table-tag-id' // Only support when `Allow table selection for online booking` is enabled 
+      "tableTagId": 'table-tag-id', // Only support when `Allow table selection for online booking` is enabled
+      // booking widget
+      "isWaitlistFromBookingWidget": false // default: false, when `true` will auto show waitlist pop
     }
 ```
 
